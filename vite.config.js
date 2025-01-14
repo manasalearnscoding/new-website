@@ -5,4 +5,7 @@ import babel from 'vite-plugin-babel';
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), babel()],
+  esbuild: {
+    loader: 'jsx', 
+  },
 })

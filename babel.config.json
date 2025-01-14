@@ -1,5 +1,7 @@
 {
     "plugins": [
+      "@babel/preset-env", 
+      "@babel/preset-react",
       "@babel/plugin-transform-react-jsx-development",
       "@babel/plugin-transform-react-jsx"
     ]
