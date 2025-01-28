@@ -12,7 +12,7 @@ import resume from "./assets/images/resume.pdf";
 // Background image credits:
 // Pinimg.com, 2025, i.pinimg.com/736x/cb/99/bc/cb99bc9de2a41527de5a7249c8564176.jpg
 
-const HomePage = () => {
+function HomePage () {
   return (
     <>
       <Navbar />
